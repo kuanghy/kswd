@@ -52,6 +52,10 @@ body {
     margin:0px auto;
     /* background: #99FFCC; */
     border-top: thick double #999999;
+    font-size: 14px;
+    color: #939399;
+    position: relative;
+    padding-bottom: 20px
 }
 
 .head-time {
@@ -385,4 +389,94 @@ div .item
     position:fixed;
     left:10px;
     bottom:10%;
+}
+
+
+/**
+ * 以下为页脚相关的样式
+ */
+.logo_footer {
+    position: absolute;
+    text-align:center; 
+    width: 100%;
+    top: 10px;
+}
+
+.logo_footer img {
+    /*display: block;*/
+    max-width: 100%;
+    margin: 25px 10px;
+    height: auto;
+    vertical-align: middle;
+    border: 0;
+    opacity: 0.5;
+}
+
+.logo_footer img:hover {
+    opacity: 1;
+}
+
+.container_footer {
+ margin:25px auto;
+ padding-left; 15px;
+ padding-right: 15px;
+ max-width: 1230px;
+}
+
+.social img:hover {
+    opacity: 0.2;
+}
+
+.row {
+    margin-left: -15px;
+    margin-right: -15px;
+ }
+
+.row-address {
+    clear: both;
+}   
+
+.column-left {
+    padding: 0;
+    width: 41.66667%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+ }
+
+.column-right-offset {
+    padding: 0;
+    width: 41.66667%;
+    margin-left: 16.66667%;
+    float: left;
+    position: relative;
+    text-align: right;
+    }
+
+.container_footer a {   
+    text-decoration: none;
+    color: inherit;
+    }
+
+.container_footer a:hover {
+    color: #A64A57;
+        }
+
+.container_footer p {
+    font-size: 0.8em;
+}
+
+.container_footer ul {
+    margin-left: 15px;
+    margin-bottom: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+.container_footer li {
+    margin-right: 15px;
+    margin-bottom: 0px;
+    margin-bottom: 15px;
+    font-size: 1em;
+    display: inline;
 }
