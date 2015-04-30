@@ -50,7 +50,7 @@ body {
     width:100%;
     height:50px;
     margin:0px auto;
-    /* background: #99FFCC; */
+    /*background: #99FFCC; */
     border-top: thick double #999999;
     font-size: 14px;
     color: #939399;
@@ -58,6 +58,9 @@ body {
     padding-bottom: 20px
 }
 
+/**
+ * 以下为页面头部相关样式
+ */
 .head-time {
     width:100%;
     height:20px;
@@ -72,6 +75,9 @@ body {
     margin:0 auto; /* 两个值时为:上下; 四个值时为:上 右 下 左 */
 }
 
+/**
+ * 以下为页面主体相关样式
+ */
 .item a
 {
     color: #666666;
@@ -140,7 +146,9 @@ div .item
     margin-left: 15px;
 }
 
-
+/**
+ * 以下是搜索框相关样式
+ */
 #searcharea
 {
     clear: both;
@@ -189,8 +197,6 @@ div .item
     padding: 2px;
 }
 
-/*-------------------------------------*/
-
 .cf:before, .cf:after{
   content:"";
   display:table;
@@ -203,8 +209,6 @@ div .item
 .cf{
   zoom:1;
 }
-
-/*-------------------------------------*/
 
 .form-wrapper {
     width: 580px;
@@ -324,7 +328,9 @@ div .item
 }
 
 
-/* go */
+/**
+ * 以下是快速跳转到顶部和底部的相关样式
+ */
 .go {
     width:48px;
     height:106px;
@@ -376,7 +382,9 @@ div .item
     background-position:-34px -56px
 }
 
-/* 人性时钟 */
+/**
+ * 人性时钟样式
+ */
 .hone {
     /* 旧的布局
     position:absolute;
@@ -397,7 +405,7 @@ div .item
  */
 .logo_footer {
     position: absolute;
-    text-align:center; 
+    text-align:center;
     width: 100%;
     top: 10px;
 }
@@ -417,10 +425,10 @@ div .item
 }
 
 .container_footer {
- margin:25px auto;
- padding-left; 15px;
- padding-right: 15px;
- max-width: 1230px;
+    margin:25px auto;
+    padding-left; 15px;
+    padding-right: 15px;
+    max-width: 1230px;
 }
 
 .social img:hover {
@@ -434,7 +442,7 @@ div .item
 
 .row-address {
     clear: both;
-}   
+}
 
 .column-left {
     padding: 0;
@@ -442,7 +450,7 @@ div .item
     float: left;
     position: relative;
     min-height: 1px;
- }
+}
 
 .column-right-offset {
     padding: 0;
@@ -451,16 +459,16 @@ div .item
     float: left;
     position: relative;
     text-align: right;
-    }
+}
 
-.container_footer a {   
+.container_footer a {
     text-decoration: none;
     color: inherit;
-    }
+}
 
 .container_footer a:hover {
     color: #A64A57;
-        }
+}
 
 .container_footer p {
     font-size: 0.8em;
@@ -471,7 +479,7 @@ div .item
     margin-bottom: 0;
     padding: 0;
     list-style: none;
-  }
+}
 
 .container_footer li {
     margin-right: 15px;
@@ -479,4 +487,14 @@ div .item
     margin-bottom: 15px;
     font-size: 1em;
     display: inline;
+}
+
+/**
+ * 以下样式用于其他页面
+ */
+.mediatediv{
+    width: 1000px;
+    height: auto;
+    margin: 100px auto;
+    border: 1px solid #333;
 }
