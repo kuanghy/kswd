@@ -499,22 +499,49 @@ div .item
  * 以下样式用于其他页面
  */
 .mediatediv{
-    width: 1000px;
+    width: 860px;
     height: auto;
     margin: 100px auto;
-    border: 1px solid #333;
+    /*border: 1px solid #333;*/
+    font-family: Verdana,verdana,"Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.6em;
 }
 
+.mediatediv h1 {
+    font-size: 26px;
+    text-align: center
+}
 
-/**
- * 鼠标悬停显示的图片
- */
-.wxImg {
-    display:none;
-    height:20px;
-    width:20px;
-    background:#f00;
-    position:absolute;
-    left:10px;
-    bottom:10%;
+.mediatediv .imgs {
+    text-align: center;
+}
+
+.mediatediv a
+{
+    color: #3366FF;
+    font-family: Verdana,verdana;
+    font-size:15px;
+    text-decoration:none; /* 去掉下划线 */
+}
+
+.mediatediv a:hover
+{
+    color: #C00;
+}
+
+.mediatediv .back {
+    text-align:center;
+}
+
+.mediatediv .back a {
+    color: #003DF5;
+    font-size: 20px;
+    text-decoration:underline;
+}
+
+.mediatediv .sign {
+    color: #660000;
+    font-size:15px;
+    text-align:right;
 }
